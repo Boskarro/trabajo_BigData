@@ -1,0 +1,53 @@
+---
+image: imagenes/BAILESITO.gif      #- poned una foto vuestra
+about:
+  template: jolla      #- {jolla, solana, ...}
+  image-width: 16em         #- https://cybmeta.com/em-y-rem
+  image-shape: rounded    #- {rectangle, round, rounded}
+   
+---
+
+
+<!--html_preserve-->
+
+<audio src="music/Driftveil.mp3" autoplay="" loop="" class=""></audio>
+
+<style>
+
+body {
+  background-image: url('/imagenes/UNDERWATER2.gif');
+  background-size: cover;
+}
+
+ body h3 { 
+      color: #336699;
+      background-color: white;
+      font-size: 24px; 
+      font-weight: bold;
+      font-family:'Tilt Warp', sans-serif;
+    }
+body p {
+      color: white; 
+      font-size: 16px;
+      font-family:'Noto Sans Display', sans-serif;
+      background-color: black;
+    }
+
+body a {
+  color: #00FFD4;
+  text-decoration: underline;
+}
+
+</style>
+
+<!--html_preserve-->
+
+### Hola, soy Juan Bosco Pujol
+
+Esta web sirve para presentar el trabajo final individual para la asignatura "Programación y manejo de datos en la era Del Big Data", optativa de GECO en la Facultad de Economía de la Universitat de València.
+
+La web de la asignatura está [aquí](https://perezp44.github.io/intro-ds-23-24-web/){target="_blank"} y los trabajos de mis compañeros de curso puedes verlos [aquí](https://perezp44.github.io/intro-ds-23-24-web/05-trabajos-estudiantes.html){target="_blank"}.
+
+Mi trabajo lleva por título : "Ataques de tiburón a lo largo de la historia". El objetivo es limpiar la imagen de los tiburones, molan mucho.
+
+El trabajo puede verse [aquí](my_trabajo_BigData.html).

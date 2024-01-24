@@ -1,0 +1,74 @@
+project:                
+  type: website          
+  output-dir: docs       
+  
+website:
+  title: "🦈 (Clica aquí)"            #- hay q cambiarlo
+  favicon: imagenes/sharkfavi.png     #- 
+  search:   
+    location: navbar
+    type: overlay   
+    copy-button: true
+  navbar:           #---
+    background: "#1100A0"    #- color de la navbar
+    foreground: "#AFFFF4"    #- color navigation elements, text and links that appear in the navbar.
+    right:
+      - text: "Trabajo individual"   #---
+        href: my_trabajo_BigData.qmd   
+      - icon: github
+        href: https://github.com/Boskarro    #- pon tu usuario Github
+      - icon: envelope
+        url: "mailto:pucer@alumni.uv.es"            #- pon tu e-mail
+  page-footer:
+    border: true
+    background: "#1100A0" 
+    foreground: "#AFFFF4 " #--
+    left: "© 2024 Boskarro"   #--
+    center: "Hecho por un tiburón que sabe usar [Quarto](https://quarto.org)."
+    right:
+      - icon: github
+        href: https://github.com/<tu-usuario-github>     #- pon tu usuario Github
+      - icon: envelope
+        url: "mailto:pucer@alumni.uv.es"            #- pon tu e-mail
+    
+format:
+  html:
+    theme: flatly           #- https://quarto.org/docs/output-formats/html-themes.html
+    mainfont: Lato
+    highlight-style: a11y   #-
+    css: my_styles.css      #- si queréis añadir cosas
+    page-layout: full
+    toc-location: right
+    toc-title: "Índice"
+    code-copy: true
+    code-overflow: wrap    
+    code-fold: show
+    code-line-numbers: true
+
+# Enable CC licence appendix
+#license: "CC BY"
+
+lang: es  
+
+# Default execute options
+execute:
+  echo: true
+  message: false
+  warning: false
+  eval: true
+  #fig-align: center
+  #freeze: true  #- des-comentar cuando estéis tuneando el blog
+                 #- https://quarto.org/docs/projects/code-execution.html#freeze
+    
+
+#- Default knitr options
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    fig.asp:  7/9
+    out.width: "95%"
+    fig.align: "center"
+    fig.show: "hold"
+    R.options:
+      options(scipen = 999) #- para quitar la notación científica  

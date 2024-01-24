@@ -1,0 +1,116 @@
+/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+
+.btn.code-tools-button.dropdown-toggle {
+  background-color: navy; /* Cambia a tu color deseado */
+  color: #ffffff; /* Cambia a tu color deseado para el texto */
+  border-color: navy; /* Cambia a tu color deseado para el borde */
+}
+
+/* Cambiar color al pasar el mouse (hover) */
+.btn.code-tools-button.dropdown-toggle:hover {
+  background-color: #10B1BF; /* Cambia a tu color deseado en hover */
+  color: #ffffff; /* Cambia a tu color deseado para el texto en hover */
+  border-color: #10B1BF; /* Cambia a tu color deseado para el borde en hover */
+  
+}  
+
+.navbar-dark .navbar-brand {
+    font-size: 1.75rem;
+    background: -webkit-linear-gradient(#FFFFFF, #01E5E2, #147A78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.quarto-title-banner {
+  background-image: url('/imagenes/OSEANO.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Otros estilos según sea necesario */
+}
+
+.quarto-category {
+  background-color:#0230B2;
+  color: white;
+  font-weight: 900;
+}
+
+
+body {
+  background-image: url('/imagenes/fondo.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat;
+  
+}
+
+
+.quarto-categories {
+  display: flex;
+  justify-content: center;
+}
+
+.quarto-title-meta {
+  color: #A2FFF3;
+}
+
+.quarto-title-meta-contents {
+  color: #A2FFF3;
+}
+.quarto-title-meta-author {
+  color: #A2FFF3;
+
+
+h3, .h3 {
+    font-weight: 600;
+    color: white;
+}
+
+p{
+  color: white;
+}
+
+
+h2{
+color: black;
+}
+
+.affiliation a {
+  color: white !important;
+  
+
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #18bc9c;
+    color: #000 !important;
+}
+
+
+
+
+  
+ 
+/* justificar el texto */ 
+p, ul, ol {
+  text-align: justify; }    
+  
+
+  
+  
+  
+  
+  
+  
